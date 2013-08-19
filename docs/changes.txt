@@ -1,0 +1,24 @@
+version 0.1.0 08-04-2001 Supports:
+                         - Auto set time and date
+                         - Automatic close
+                         - Save CFG file from router
+                         - Upload CFG file to router
+                         - Kill current connections
+                         - Reboot the rooter (and set time/date afterwards)
+                         - Reset the rooter 
+
+Known problems:                         
+
+- System name parsing is not waterproof (might get System Name:User instead)
+- almost no error checking!
+
+To-Do-List:
+
+- Add a console to enter commands
+- Make timer configurable
+- Support for firmware updates (do not expect that too soon)
+- use RxExtras only when available
+- do some error checking (almost completely missing)
+- help & docs
+
+                         
